@@ -5,11 +5,11 @@ require 'csv_sjis/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "csv_sjis"
-  spec.version       = CsvSjis::VERSION
+  spec.version       = CSVSjis::VERSION
   spec.authors       = ["kozo yamagata"]
   spec.email         = ["tune002@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Generate CSV for Shift_JIS}
+  spec.description   = %q{Generate CSV for Shift_JIS}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
